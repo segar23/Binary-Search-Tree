@@ -1,6 +1,16 @@
-#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+
+//Node struct with value, and pointer to both childs
+struct node {
+    int value;
+    struct node* leftChild;
+    struct node* rightChild;
+};
+
+
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+
     return 0;
 }
